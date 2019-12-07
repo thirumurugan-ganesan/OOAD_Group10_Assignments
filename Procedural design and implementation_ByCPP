@@ -1,0 +1,39 @@
+Solution By Procedural Language ("C" Language):
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int part1(int goal)
+{
+    int x, y, dx, dy, step, dxtmp;
+    x = y = dx = step = 0;
+    dy = -1;
+
+    for (;;)
+    {
+        step += 1;
+        if (goal == step)
+            return abs(x) + abs(y);
+
+        if ((x == y) || ((x < 0) && (x == -y)) || ((x > 0) && (x == 1-y)))
+        {
+            dxtmp = dx;
+            dx = -dy;
+            dy = dxtmp;
+        }
+       
+        x += dx;
+        y += dy;
+    }
+}
+
+int main()
+{
+   
+    int num_matrix = 17;
+    printf("%d\n", part1(num_matrix));
+   
+
+    return 0;
+}

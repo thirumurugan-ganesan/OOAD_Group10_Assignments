@@ -1,0 +1,50 @@
+*************     Started executing testTestValueGivenInExample_1     *************
+You entered 1
+Shortest Steps : 0
+*************     Execution completed for testTestValueGivenInExample_1     *************
+
+*************     Started executing testMaxValue_2000     *************
+You entered 2000
+Shortest Steps : 25
+*************     Execution completed for testMaxValue_2000     *************
+
+*************     Started executing testTestValueGivenInExample_12     *************
+You entered 12
+Shortest Steps : 3
+*************     Execution completed for testTestValueGivenInExample_12     *************
+
+*************     Started executing testTestValueGivenInExample_23     *************
+You entered 23
+Shortest Steps : 2
+*************     Execution completed for testTestValueGivenInExample_23     *************
+
+*************     Started executing testZero     *************
+You have entered Invalid Entry [Ex. 0 or Negative numbers or Invalid Alpha numerical characters].
+*************     Execution completed for testZero     *************
+
+*************     Started executing testFindsteps_forUserdefinedValidValue     *************
+Please enter the valid Number here : [Ex. 2134]
+Enter an integer: 2345345345
+You have entered Invalid Entry [Ex. 0 or Negative numbers or Invalid Alpha numerical characters].
+*************     Execution completed for testFindsteps_forUserdefinedValidValue     *************
+
+*************     Started executing testFindsteps_forUserdefinedInvalidValue     *************
+Please enter the Invalid Number here : [Ex. -12 / dfsdf / 0 ]
+Enter an integer: erfgtdou9dfio
+You have entered Invalid Entry [Ex. 0 or Negative numbers or Invalid Alpha numerical characters].
+*************     Execution completed for testFindsteps_forUserdefinedInvalidValue     *************
+
+*************     Started executing testTestValueGivenInExample_1024     *************
+You entered 1024
+Shortest Steps : 31
+*************     Execution completed for testTestValueGivenInExample_1024     *************
+
+*************     Started executing testNegative     *************
+You have entered Invalid Entry [Ex. 0 or Negative numbers or Invalid Alpha numerical characters].
+*************     Execution completed for testNegative     *************
+
+*************     Started executing testIntAsAString     *************
+You entered 23
+Shortest Steps : 2
+*************     Execution completed for testIntAsAString     *************
+

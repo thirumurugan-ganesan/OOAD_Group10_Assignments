@@ -1,0 +1,69 @@
+User Stories:
+==============
+
+User Story 1:
+    As a user
+	I want to find the Number of steps to reach the square 1 in spiral memory for min positive number
+	So that i can show the Number of steps to carried back to square 1.
+	
+User Story 2:
+    As a user
+	I want to find the Number of steps to reach the square 1 in spiral memory for max positive number [here 2000 is max integer]
+	So that i can show the Number of steps to carried back to square 1.
+
+User Story 3:
+   As a User 
+   I want to have a validation message as "You have entered Invalid Entry [Ex. 0 or Negative numbers or Invalid Alpha numerical characters]."
+   So that I can display the error message if I enter the input as negative or Non Numeric or 0 
+  
+   
+Acceptance Criteria:
+====================
+
+Acceptance Criteria 1:
+	Given a Spiral Memory Generator is available
+	When I enter 1 as a list of squares [min value /starting point] in a spiral memory
+	Then the system should find the steps to reach the Starting point
+	And the system should display 0 as the no of steps to reach square 1
+
+Acceptance Criteria 2:
+	Given a Spiral Memory Generator is available
+	When I enter 10 as the input to the list of squares
+	Then the system should display 3 as the steps to return to the square 1
+
+Acceptance Criteria 3:
+	Given a Spiral Memory Generator is available
+	When I enter 2000 as the input to the list of squares
+	Then the system should display 25 as the steps to return to the square 1
+
+
+Acceptance Criteria 4:
+	Given a Spiral Memory Generator is available
+	When I enter 1024 as the input to the list of squares
+	Then the system should display 31 as the steps to return to the square 1
+
+Acceptance Criteria 5:
+	Given a Spiral Memory Generator is available
+	When I enter a valid random number as a square element [min value /starting point] in a spiral memory
+	Then the system should find the No of steps
+	And the system should display 0 as the no of steps to reach square 1
+
+
+Acceptance Criteria 6:
+	Given a Spiral Memory Generator is available
+	Then i enter valid predefined square element as "0" for a spiral memory
+	Then the  system should display an error message as "You have entered Invalid Entry [Ex. 0 or Negative numbers or Invalid Alpha numerical characters]."
+
+
+Acceptance Criteria 7:
+	Given a Spiral Memory Generator is available
+	When I enter valid predefined square element as "-10" [Negative Number] for a spiral memory
+	Then the  system should display an error message as "You have entered Invalid Entry [Ex. 0 or Negative numbers or Invalid Alpha numerical characters]."
+
+
+Acceptance Criteria 8:
+	Given a Spiral Memory Generator is available
+	When i enter invalid square element [Alphanumeric text] in a spiral memory
+	Then the  system should display an error message as "You have entered Invalid Entry [Ex. 0 or Negative numbers or Invalid Alpha numerical characters]."
+
+      
